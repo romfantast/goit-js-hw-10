@@ -17,6 +17,7 @@ function onInput(e) {
   let country = e.target.value;
   if (country.trim() === '') {
     refs.listEl.innerHTML = '';
+    refs.countryInfoEl.innerHTML = '';
     return;
   }
 
